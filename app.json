@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "discover-city",
-    "description": "This project is really great.",
+    "description": "My first city discovery application.",
     "slug": "discover-city",
     "privacy": "public",
     "sdkVersion": "30.0.0",
@@ -21,7 +21,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      bundleIdentifier: 'com.appaxium.citydiscover'
     }
   }
 }

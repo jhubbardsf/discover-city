@@ -24,7 +24,7 @@ export default class App extends React.Component {
 					loading={this.state.geocoding}
 					buttonStyle={{backgroundColor: "blue"}}
 					onPress={this.reverseGeocode}
-					title={this.state.geocoding ? "Geocoding..." : "Geocode"}
+					title={this.state.geocoding ? "Geocoding..." : "Geocodes"}
 					color="#ffffff"
 				/>
 				<Text style={styles.result}>{this.state.address}</Text>
